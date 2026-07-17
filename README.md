@@ -79,10 +79,6 @@ Feel free to fork this repository and submit a pull request.
 ## 👨‍💻 Author
 
 **Prathap**
-
-- GitHub: https://github.com/yourusername
-- LinkedIn: https://linkedin.com/in/yourprofile
-
 ---
 
 ## ⭐ Support
