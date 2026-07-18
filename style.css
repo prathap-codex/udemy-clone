@@ -72,7 +72,10 @@ body {
     display: block;
 }
 
-/* Recommended */
+
+
+
+
 
 .recommended {
     padding: 20px;
@@ -103,7 +106,10 @@ body {
     padding: 4px 8px;
 }
 
-/* Topics */
+
+
+
+
 
 .topics {
     padding: 20px;
@@ -123,7 +129,10 @@ body {
     flex-basis: 25%;
 }
 
-/* Popular */
+
+
+
+
 
 .popular {
     padding: 20px;
@@ -150,7 +159,9 @@ body {
     object-fit: cover;
 }
 
-/* Footer */
+
+
+
 
 .footer {
     margin-top: 30px;
@@ -174,48 +185,3 @@ body {
     margin-top: 30px;
 }
 
-/* Mobile */
-
-@media screen and (max-width:600px) {
-
-    .navbar {
-        flex-wrap: wrap;
-    }
-
-    .navbar__s2 {
-        width: 100%;
-    }
-
-    .navbar__s3 {
-        display: none;
-    }
-
-    .categories {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .course-card,
-    .popular .course-card {
-        width: 48%;
-    }
-
-    .course-card img,
-    .popular .course-card img {
-        height: 130px;
-    }
-
-    .topics__container p {
-        flex-basis: 45%;
-    }
-
-    .footer__one {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .footer__two {
-        flex-direction: column;
-        gap: 15px;
-    }
-}
