@@ -60,11 +60,12 @@ body {
     color: white;
     padding: 10px 18px;
     border-radius: 30px;
-    
+    transition: .3s;
 }
 
 .categories p:hover {
     background: black;
+    cursor: pointer;
 }
 
 .sale-image img {
@@ -72,10 +73,7 @@ body {
     display: block;
 }
 
-
-
-
-
+/* Recommended */
 
 .recommended {
     padding: 20px;
@@ -93,6 +91,12 @@ body {
     width: 23%;
     background: white;
     border-radius: 10px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
 }
 
 .course-card img {
@@ -106,10 +110,7 @@ body {
     padding: 4px 8px;
 }
 
-
-
-
-
+/* Topics */
 
 .topics {
     padding: 20px;
@@ -129,10 +130,7 @@ body {
     flex-basis: 25%;
 }
 
-
-
-
-
+/* Popular */
 
 .popular {
     padding: 20px;
@@ -150,7 +148,12 @@ body {
     width: 23%;
     background: white;
     border-radius: 10px;
-    
+    overflow: hidden;
+    transition: .3s;
+}
+
+.popular .course-card:hover {
+    transform: translateY(-5px);
 }
 
 .popular .course-card img {
@@ -159,9 +162,7 @@ body {
     object-fit: cover;
 }
 
-
-
-
+/* Footer */
 
 .footer {
     margin-top: 30px;
@@ -185,3 +186,62 @@ body {
     margin-top: 30px;
 }
 
+/* Tablet */
+
+@media screen and (max-width:900px) {
+
+    .course-card,
+    .popular .course-card {
+        width: 48%;
+    }
+
+    .navbar__s2 {
+        width: 50%;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:600px) {
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar__s2 {
+        width: 100%;
+    }
+
+    .navbar__s3 {
+        display: none;
+    }
+
+    .categories {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .course-card,
+    .popular .course-card {
+        width: 48%;
+    }
+
+    .course-card img,
+    .popular .course-card img {
+        height: 130px;
+    }
+
+    .topics__container p {
+        flex-basis: 45%;
+    }
+
+    .footer__one {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer__two {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
