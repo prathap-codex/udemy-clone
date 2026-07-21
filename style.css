@@ -9,6 +9,8 @@ body {
 }
 
 .navbar {
+    position: sticky;
+    top: 0;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -49,6 +51,7 @@ body {
 }
 
 .categories {
+    
     display: flex;
     justify-content: space-around;
     padding: 15px;
