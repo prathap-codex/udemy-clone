@@ -117,8 +117,6 @@ body {
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
-    
-
 }
 
 .image-text:hover {
@@ -137,6 +135,7 @@ body {
         transform: scale(1);
     }
 }
+
 /* Recommended */
 
 .recommended {
@@ -157,6 +156,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     transition: .3s;
+    background-color: #EFF6FF;
 }
 
 .course-card:hover {
@@ -221,6 +221,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     transition: .3s;
+    background-color: #EFF6FF;
 }
 
 .popular .course-card:hover {
